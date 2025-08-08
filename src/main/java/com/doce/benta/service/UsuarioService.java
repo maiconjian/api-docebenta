@@ -25,6 +25,7 @@ public class UsuarioService extends AbstractServiceDao<Usuario, UsuarioRepositor
 
     @Autowired
     private Dao dao;
+
     @Autowired
     private PasswordEncoder passwordEncoder;
 
